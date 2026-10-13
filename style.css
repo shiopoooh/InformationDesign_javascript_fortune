@@ -1,0 +1,50 @@
+body {
+    background-color: var(--color-main);
+    color: var(--color-text);
+    margin: 0;
+    transition: background-color 0.3s, color 0.3s;
+    text-align: center;
+}
+
+header {
+    background-color: var(--color-header);
+    padding: 1rem;
+    text-align: center;
+}
+button {
+    width: 200px;
+    height: 50px;
+    border: 1px solid #fff;
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: rgb(168, 3, 3);
+    border-radius: 10px;
+}
+
+.rainbow-text {
+  animation: rainbow 1s linear infinite;
+}
+
+@keyframes rainbow {
+  0% {
+    color: red;
+  }
+  16% {
+    color: orange;
+  }
+  33% {
+    color: yellow;
+  }
+  50% {
+    color: green;
+  }
+  66% {
+    color: blue;
+  }
+  83% {
+    color: purple;
+  }
+  100% {
+    color: red;
+  }
+}
